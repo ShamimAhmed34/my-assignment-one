@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Merriweather:wght@400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+header .container {
+    width: 80%;
+    height: 600px;
+    max-width: 1320px;
+    background-image: url('./img/bannerimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    border-radius: 15px;
+
+}
+
+.header-title {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.header-title .header-title-1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Merriweather;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+}
+
+.header-title .header-title-2 {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    text-shadow: 2px 2px black;
+}
+
+main .all-catagories {
+    width: 50%;
+    margin: 120px auto;
+}
+
+.all-catagories .all-catagories-deals {
+    text-align: center;
+}
+
+.all-catagories .all-catagories-deals h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.all-catagories .all-catagories-deals p {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.all-catagories .all-catagories-deals h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+main .midnight-party {
+    width: 80%;
+    max-width: 1320px;
+    height: 600px;
+    background-image: url('./img/vectorrr.png');
+    background-repeat: no-repeat;
+    margin: 120px auto;
+
+}
+
+main .midnight-party-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+main .midnight-party-title h1 {
+    max-width: 640px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    text-shadow: 2px 2px black;
+    margin-bottom: 24px;
+}
+
+main .midnight-party-title p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+main .midnight-party-title .btn-join {
+    background: none;
+    border: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+main .midnight-party-container .party-img {
+    width: 310px;
+    height: 465px;
+    padding-top: 10px;
+}
