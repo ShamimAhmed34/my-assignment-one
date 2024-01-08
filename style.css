@@ -13,7 +13,7 @@ header .container {
     width: 80%;
     height: 600px;
     max-width: 1320px;
-    background-image: url('./img/bannerimage.png');
+    background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./img/bannerimage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,6 @@ header .container {
     font-weight: 400;
     font-family: Merriweather;
     margin-bottom: 10px;
-    text-shadow: 2px 2px black;
 }
 
 .header-title .header-title-2 {
@@ -54,6 +53,11 @@ main .all-catagories {
 .all-catagories .all-catagories-deals {
     text-align: center;
 }
+
+main .all-catagories-img {
+    text-align: center;
+}
+
 
 .all-catagories .all-catagories-deals h1 {
     color: #F00;
@@ -84,9 +88,10 @@ main .midnight-party {
     width: 80%;
     max-width: 1320px;
     height: 600px;
-    background-image: url('./img/newyearparty.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./img/newyearparty.png');
     background-repeat: no-repeat;
     margin: 120px auto;
+    border-radius: 15px;
 
 }
 
@@ -106,7 +111,6 @@ main .midnight-party-title h1 {
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
-    text-shadow: 2px 2px black;
     margin-bottom: 24px;
 }
 
@@ -346,7 +350,7 @@ section .best-gifts {
 }
 
 section .best-gifts .best-gifts-img img {
-    width: 400px;
+    width: 375px;
     height: 450px;
     margin: 5px 5px;
     transition: 0.5s ease;
@@ -358,7 +362,7 @@ section .best-gifts-img img:hover {
 }
 
 section .best-gifts .best-gifts-img-2 img {
-    width: 400px;
+    width: 375px;
     height: 450px;
     margin: 5px 5px;
     transition: 0.5s ease;
@@ -430,7 +434,9 @@ section .subcribe-btn .sub-btn:hover {
 footer .information-container {
     background: #070211;
     width: 100%;
+    max-width: auto;
     height: 600px;
+    margin: 0 auto;
 }
 
 footer .contact {
