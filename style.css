@@ -44,6 +44,12 @@ header .container {
     text-shadow: 2px 2px black;
 }
 
+/* section {
+    width: 80%;
+    max-width: 1320px;
+    
+} */
+
 main .all-catagories {
     width: 50%;
     margin: 120px auto;
@@ -129,4 +135,380 @@ main .midnight-party-container .party-img {
     width: 310px;
     height: 465px;
     padding-top: 10px;
+}
+
+main section .party-date-and-time {
+    width: 80%;
+    max-width: 1320px;
+    height: 480px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+main .party-date-and-time h2 {
+    padding-top: 100px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 50px;
+
+}
+
+main .party-date-and-time .party-time {
+    color: #F00;
+}
+
+main .party-date-and-time .party-join-btn {
+    background: #F00;
+    border: 0;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+}
+
+section .best-offer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1320px;
+    margin: 120px auto;
+    align-items: center;
+}
+
+section .best-offer-description .best-offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+section .best-offer-description h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section .best-offer-description .offer-title-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+section .best-offer-img {
+    border: 15px solid #F00;
+    border-radius: 460px;
+    padding: 25px;
+}
+
+section .best-offer .best-offer-img-description {
+    margin-top: 100px;
+}
+
+section .best-offer .best-offer-img-description h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section .best-offer .best-offer-img-description p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+section .holidays-sales {
+    text-align: center;
+}
+
+section .holidays-sales h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+section .holidays-sales h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+section .holidays-sales span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+section .holidays-sales p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+
+section .img-discount-container {
+    width: 80%;
+    max-width: 1320px;
+    height: 660px;
+    margin: 0px auto;
+    background-image: url('./img/rectangle2.png'), url('./img/rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: bottom center, top right;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+section .img-discount-container {
+    display: flex;
+    gap: 50px;
+}
+
+section .img-discount-1 .discount-img1 {
+    width: 675px;
+    height: 577px;
+}
+
+section .img-discount-2 {
+    margin-top: 50px;
+}
+
+section .img-discount-1 {
+    margin-top: 50px;
+}
+
+section .best-gifts-img .best-gifts-img-2 {
+    width: 70%;
+    max-width: 1320px;
+}
+
+section .best-gifts-title h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+section .best-gifts-title h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+section .best-gifts-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+section .best-gifts {
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+section .best-gifts .best-gifts-img img {
+    width: 420px;
+    height: 450px;
+    margin: 5px 5px;
+    transition: 0.5s ease;
+}
+
+section .best-gifts-img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+section .best-gifts .best-gifts-img-2 img {
+    width: 420px;
+    height: 450px;
+    margin: 5px 5px;
+    transition: 0.5s ease;
+}
+
+section .best-gifts-img-2 img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+section .subcribe-newslatter {
+    width: 80%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+section .subcribe-newslatter img {
+    margin-bottom: 35px;
+}
+
+section .subcribe-newslatter h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section .subcribe-newslatter p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+section .subcribe-btn .input-email {
+    background: white;
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+    width: 400px;
+    padding: 22px;
+}
+
+section .subcribe-btn .sub-btn {
+    background: #F00;
+    border: 0;
+    padding: 18px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+section .subcribe-btn .sub-btn:hover {
+    color: #FFF;
+}
+
+footer .information-container {
+    background: #070211;
+    width: 100%;
+    height: 600px;
+}
+
+footer .contact {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer .contact-address {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer .contact-address h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .mobile-num {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+footer .website {
+    display: flex;
+    gap: 15px;
+}
+
+footer .contact-num {
+    margin-top: 100px;
+}
+
+footer .mobile-num h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .website h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .social-link {
+    text-align: center;
+}
+
+footer .social-link hr {
+    width: 80%;
+    max-width: 1320px;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer .social-link img {
+    margin: 30px 10px;
+}
+
+footer .unsubcribe {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+footer .unsubcribe h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .unsubcribe-btn {
+    background: none;
+    border: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+footer .unsubcribe-btn:hover {
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
 }
