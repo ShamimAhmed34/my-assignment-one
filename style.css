@@ -133,6 +133,10 @@ main .midnight-party-title .btn-join {
     padding: 30px;
 }
 
+main .midnight-party .btn-join:hover {
+    color: #F00;
+}
+
 main .midnight-party-container .party-img {
     width: 310px;
     height: 465px;
