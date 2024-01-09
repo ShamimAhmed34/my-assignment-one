@@ -494,6 +494,11 @@ footer .website h3 {
     line-height: 40px;
 }
 
+footer .website a{
+    color: white;
+    text-decoration: none;
+}
+
 footer .social-link {
     text-align: center;
 }
